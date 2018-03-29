@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+body{
+    background-color: #446;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 17px;
+    color: #aaa;
+    
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 75px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Raleway";
+    font-weight: 400;
+    color: #fff;
+}
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.centered{
+    text-align: center;
+}
+a{
+    color: #7878fa;
+}
+a:hover, a:focus{
+    color: #fa7878;
+    text-decoration: none;
+    outline: 0;
+}
+
+
+/** none*/
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0px;
+    
+}
+    
+.navbar{
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 15px
+    padding-bottom: 15px;
+}
+.navbar-inverse{
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #547;
+}
+    
+.navbar-inverse .navbar-brand{
+    font-weight: bolder;
+    font-size: 23px;
+}
+    
+#headerwrap{
+   /* not work background:url(/assets/camille.jpg) no-repeat center top; */
+    margin-top: -10px;
+    padding-top: 20px;
+    min-height: 500px; 
+    text-align: center;
+    width: 100%;
+    background-attachment: relative;
+    background-position: center bottom;
+    
+    background-size: 100%
+    
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+     background-size: cover;
+}
+
+#headerwrap h1{
+    margin-top: 150px;
+    font-weight: 200;
+    font-size: 65px;
+    letter-spacing: 2px;
+}
+
+.w{
+    padding-top: 35px;
+}
+    
+#dg{
+    background: #669;
+    padding-top: 55px
+    padding-bottom: 100px;
+}
+#dg h4{
+    font-size: 40px;
+    font-weight: 400;
+}
+    
+.tilt{
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.tilt:hover{
+    -o-transform: rotae(-7deg);
+    -moz-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+    
+.wb {
+    margin-top: 35px;
+    
+}
+    
+.wb h4{
+    font-size: 40px;
+    font-weight: 400;
+}  
+.wb img{
+    margin-left: -35px;
+}    
+    
+#lg{
+   
+    padding-top: 105px;
+    
+}
+#lg h4{
+     font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+
+#pre-footer{
+    background: #223;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+#pre-footer h4{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    
+}
+pre-footer p{
+    color: white;
+    font-size: 14px;
+    
+}
+    
+#footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#footer i{
+    padding: 35px;
+    font-size: 40px;
+}
+#carousel{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+
+
+#carousel span{
+    margin-top: 450px;
+   
+}   
+    
+    
+    
+    
+    
+    
+    
+    
